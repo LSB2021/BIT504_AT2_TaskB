@@ -36,8 +36,8 @@ public class Tetris extends Applet implements Runnable, KeyListener
    public void init ()
    { 
       addKeyListener(this);//give this applet a key listener to detect key strokes
-      Color c = new Color(0,255,255);
-      this.setBackground(c);//set the background color to light blue
+      Color c = new Color(0,255,64);
+      this.setBackground(c);//set the background color to light green.
       landBlock = getAudioClip(getDocumentBase(),"LandBlock.WAV");//load the sound file
       explosion = getAudioClip(getDocumentBase(),"Explosion.WAV");//load the sound file
       flipSound = getAudioClip(getDocumentBase(),"FlipSound.WAV");//load the sound file
