@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<attributes version="1.0">
+   <fileobject name="Tetris.java">
+      <attr name="class_dependency_java.awt.event.KeyListener" stringvalue="Tetris"/>
+      <attr name="class_dependency_java.applet.Applet" stringvalue="Tetris"/>
+      <attr name="class_dependency_java.lang.Runnable" stringvalue="Tetris"/>
+   </fileobject>
+   <fileobject name="Example.java">
+      <attr name="class_dependency_java.applet.Applet" stringvalue="Example"/>
+      <attr name="class_dependency_java.lang.Runnable" stringvalue="Example"/>
+   </fileobject>
+</attributes>
