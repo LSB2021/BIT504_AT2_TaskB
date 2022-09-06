@@ -74,7 +74,7 @@ public class Tetris extends Applet implements Runnable, KeyListener
     {
       //first reset the score to 0
       curScore = 0;
-      timeTillNextLevel = 25;//number of blocks until the next level
+      timeTillNextLevel = 50;//number of blocks until the next level
       level = 1;//first level
       holdingDownKey = false;
       //now set the entire array of xy bytes to 0 and the entire array of fourCurrentBlocks to 0
